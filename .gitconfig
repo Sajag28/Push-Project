@@ -1,3 +1,8 @@
 [user]
-	name = Sajag
-	email = sajagaga2806@gmail.com
+	name = Sajag Agrawal
+	email = 103060649+Sajag28@users.noreply.github.com
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true

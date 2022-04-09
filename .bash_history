@@ -119,3 +119,9 @@ git log
 git log -p -1
 git log -p -2
 git rm demo3.java
+code .
+touch hello1.java
+git init
+git status
+git add hello1.java
+git status
